@@ -14,11 +14,11 @@ python pprint_json.py -p test.json
 
 Result:
 
-{'_id': '01001',\n
-'city': 'AGAWAM',\n
-'loc': [-72.622739, 42.070206],\n
-'pop': 15338,\n
-'state': 'MA'}\n
+* {'_id': '01001',
+*  'city': 'AGAWAM',
+*  'loc': [-72.622739, 42.070206],
+*  'pop': 15338,
+*  'state': 'MA'}
 
 # **Project Goals**
 
