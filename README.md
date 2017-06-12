@@ -1,20 +1,21 @@
-# Prettify JSON
+# **Prettify JSON**
 
-[TODO. There will be project description]
+The script transfer json row to a more readable view.
 
 # Quickstart
 
-[TODO]
+initial json:
 
-Example of script launch on Linux, Python 3.5:
+{ "city" : "AGAWAM", "loc" : [ -72.622739, 42.070206 ], "pop" : 15338, "state" : "MA", "_id" : "01001" }
 
-```#!bash
+>python pprint_json.py -p <path to file>
 
-$ python pprint_json.py <path to file>
-# TODO add output example
+* {'_id': '01001',
+*  'city': 'AGAWAM',
+*  'loc': [-72.622739, 42.070206],
+*  'pop': 15338,
+*  'state': 'MA'}
 
-```
-
-# Project Goals
+# **Project Goals**
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
