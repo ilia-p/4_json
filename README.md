@@ -1,18 +1,18 @@
-# **Prettify JSON**
+# Prettify JSON
 
 The script transfer json row to a more readable view.
 
 # Quickstart
 
-initial json:
+**Initial json:**
 
 { "city" : "AGAWAM", "loc" : [ -72.622739, 42.070206 ], "pop" : 15338, "state" : "MA", "_id" : "01001" }
 
-Launch/path:
+**Launch/path:**
 
 python pprint_json.py -p test.json
 
-Result:
+**Result:**
 
 * {'_id': '01001',
 *  'city': 'AGAWAM',
