@@ -7,11 +7,13 @@ parser.add_argument('-p', '--path', type = str, required = True, help = 'Path to
 
 def load_data(filepath):
     with open(filepath) as data_file:
-        json_data = json.load(data_file)
-    return json_data
+        data_list = [row for row in data_file]
+    return data_list
 
-def pretty_print_json(data):
-    pprint.pprint(data)
+def pretty_print_json(data_list):
+    for data in data_list:
+        json_data = json.loads(data)
+        pprint.pprint(json_data)
 
 if __name__ == '__main__':
     arg = parser.parse_args()
