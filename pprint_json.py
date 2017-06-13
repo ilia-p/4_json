@@ -1,5 +1,4 @@
 import json
-import pprint
 import argparse
 
 parser = argparse.ArgumentParser(description = 'Path_to_file')
@@ -13,7 +12,7 @@ def load_data(filepath):
 def pretty_print_json(data_list):
     for data in data_list:
         json_data = json.loads(data)
-        pprint.pprint(json_data)
+        print(json.dumps(json_data, indent=4, sort_keys=True))
 
 if __name__ == '__main__':
     arg = parser.parse_args()
