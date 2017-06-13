@@ -14,7 +14,7 @@ The script transfer json row to a more readable view.
 
 **Result:**
 
-'''
+```
 {
     "_id": "01001",
     "city": "AGAWAM",
@@ -25,7 +25,7 @@ The script transfer json row to a more readable view.
    "pop": 15338,
    "state": "MA"
 }
-'''
+```
 
 # **Project Goals**
 
